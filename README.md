@@ -5,6 +5,7 @@ Instructions for make a system
 http://surfero.blogspot.hu/2017/06/distribucion-gnulinux-para-orange-pi-2g.html
 2. Resize the filesystem
 3. comment "deb http://blognux.free.fr/debian unstable main" from /etc/apt/sources.list
+4. apt-get update && apt-get upgrade (apt-get dist-upgrade?)
 
 idontknow
 
