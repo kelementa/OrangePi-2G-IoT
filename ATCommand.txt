@@ -1,0 +1,13 @@
+AT
+
+# Set module functionality to full
+AT+CFUN=1 
+
+# Set home nework
+AT+CREG=1
+
+# Show incoming calls CLI
+AT+CLIP=1
+
+# Send CLI to called
+AT+CLIR=2
