@@ -29,8 +29,6 @@ if ($result->num_rows > 0) {
 		$id=$row["id"];
 		$date=$row["date"];
 		$temp=$row["temp"];
-		//$fahrenheit=$row["fahrenheit"]/100;
-		//==$humidity=$row["humidity"]/100;
 		if ($count==0) {
 			echo "<tr><td>" . $row["id"] . "</td><td>" . $date . "</td>"
 			."<td>" . $temp . "</td>"
